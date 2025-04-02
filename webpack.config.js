@@ -92,7 +92,7 @@ module.exports = {
   devServer: {
     proxy: {
       "/api": {
-        target:  process.env.API_URL || "https://ahj-homeworks-12-1-qo14.onrender.com", 
+        target:  process.env.API_URL || "https://ahj-homeworks-12-3.onrender.com", 
         changeOrigin: true,
       },
     },
